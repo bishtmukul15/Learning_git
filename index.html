@@ -22,4 +22,13 @@ git restore .
 git restore --worktree .
 git reset --hard head^
 git reset --soft head^
+git log -p -2
+git log --stat         
+git log --pretty=oneline
+git log --pretty=format:"%h - %an,%ar:%s"
+git log -S "v2"
+ git log --grep="v2"
+ git log --author="mike"
+ git log --since="date"
+ git log --untill="date"
 -->
